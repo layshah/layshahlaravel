@@ -1,0 +1,27 @@
+{
+    "name":             "layshah/xmen",
+    "description":      "Mutants saving the world for people who hate them.",
+    "keywords":         ["mutant", "superhero", "bald", "guy"],
+    "homepage":         "http://marvel.com/xmen",
+    "time":             "1963-09-01",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "Lay shah",
+            "email":        "layshah72@gmail.com",
+            "homepage":     "http://marvel.com",
+            "role":         "Genius"
+        }
+    ],
+    "require": {
+        "xmen/wolverine":   "1.0.0",
+        "xmen/cyclops":     "1.0.1",
+        "xmen/storm":       "1.2.0",
+        "xmen/gambit":      "1.0.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Xmen"
+        ]
+    }
+}
